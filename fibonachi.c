@@ -11,7 +11,7 @@ int main (void) {
     printf("Print numbers from fibonachi row you want to see : \n");
     int x;
     scanf("%d", &x);
-    printf("Your fibonachi number on %d positiom is : %d", x, fibonachi(x));
+    printf("Your fibonachi number on %d positiom is : %d \n", x, fibonachi(x));
     
     printf("To exit app type anything. \n");
 
