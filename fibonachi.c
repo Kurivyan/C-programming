@@ -1,9 +1,8 @@
 #include<stdio.h>
 
 int fibonachi(int n) {
-    if (n <= 1) {
+    if (n <= 1)
         return n;
-    } 
     return fibonachi(n - 2) + fibonachi(n - 1);
 }
 

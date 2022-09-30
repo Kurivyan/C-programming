@@ -1,9 +1,8 @@
 #include<stdio.h>
 
 int recurs(int n) {
-    if (n <= 1)  { 
+    if (n <= 1)
         return 1;
-    }
     return recurs(n - 1) * n;
 }
 
