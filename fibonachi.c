@@ -12,5 +12,12 @@ int main (void) {
     int x;
     scanf("%d", &x);
     printf("Your fibonachi number on %d positiom is : %d", x, fibonachi(x));
+    
+    printf("To exit app type anything. \n");
+
+    int exit_flag = 0;
+
+    scanf("%i", &exit_flag);
+    if (exit_flag)
     return 0;
 }
