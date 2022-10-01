@@ -16,7 +16,7 @@ int main (void) {
     for (int i = 0; i < array_size; i++) {
         a[i] = fibonachi(i);
 
-        printf("%d ", a[i]);
+        printf("%llu  ", a[i]);
 
         if (i + 1 == array_size) {
                 printf("\nTo exit app type anything. \n");
