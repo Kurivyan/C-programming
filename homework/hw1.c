@@ -26,5 +26,5 @@ int main(void) {
         func(func2());
         printf("To repeat enter 0, to exit enter any number : "); scanf("%i",&exit_flag);
     } while(exit_flag == 0);
-    return 0; //
+    return 0; //123
 }
