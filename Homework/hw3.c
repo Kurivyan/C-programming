@@ -1,11 +1,13 @@
 #include<stdio.h>
+//Задача - найти максимум среди двух введенных чисел.
 
 int main(void) {
-    int exit_flag;
     int a, b;
-    printf("Enter your numbers : ");
-    scanf("%d[^\n]", &a); scanf("%d", &b);
-    if (b > a) {
+    printf("Enter your numbers : ");    //Ввод двух чисел для программы
+    scanf("%d", &a); scanf("%d", &b);
+
+
+    if (b > a) { // прогонка через три условия 1) Второе число больше первого 2) Числа равны 3) Первое число больше второго 
         printf("The greatest number is %d. \n", b);
     } else if (a == b) {
         printf("The numbers are equal.\n");
@@ -13,10 +15,5 @@ int main(void) {
         printf("The greatest number is %d. \n", a);
     }
 
-    printf("To exit enter any number : ");
-    scanf("%i", &exit_flag);
-
-    if(exit_flag)
-    return 0;
     return 0;
 }
