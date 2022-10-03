@@ -1,6 +1,6 @@
-#include<stdio.h>
+#include<stdio.h> 
 
-int main(void) {
+int main(void) { //Не эффективный скрипт !!! Не запускать !
 
 // Для int
     int int_max;
