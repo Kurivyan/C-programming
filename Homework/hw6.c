@@ -6,25 +6,20 @@ int main(){
     printf("Enter your numbers : ");
     scanf("%d %d", &a, &b);
 
-    printf("Dividers of your numbers : 1 ");
-    if( a > b ) {
-        for(int i = 1; i > b; i++) {
-            if (a % 2 * i == 0 && b % 2 * i == 0)
-                printf("%d ", 2 * i);
-
-            if (a % 3 * i == 0 && b % 3 * i == 0 && i != 2)
-                printf("%d ", 3 * i);
-
-            if (a % 5 * i == 0 && b % 5 * i == 0 && i != 2 && i != 3)
-                printf("%d ", 5 * i );
-        
-            if (a % 7 * i == 0 && b % 7 * i == 0 && i != 2 && i != 3 && i != 5)
-                printf("%d ", 7 * i );
-        }
+    printf("Dividers of your numbers : ");
+    if (a > b) {
+        for(int i = 1; i <= a; i++){
+                if(a % i == 0 && b % i == 0)
+                    printf("%d ", i);
+            }
     } else {
-
+        for(int i = 1; i <= b; i++){
+                if(a % i == 0 && b % i == 0)
+                    printf("%d ", i);
+            }
     }
-    
+
+
     return 0;
 }
 
