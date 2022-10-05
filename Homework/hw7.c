@@ -7,14 +7,14 @@ int main(){
     char n;
     printf("Write your symbols : ");
     while(1){
-        scanf("%c ", &n);
+        scanf("%c", &n);
+        if(n == '.'){ //условия выхода из вечного цикла
+            break;
+        }
         if (n >= 'a' && n <= 'z') {
             counter1++;
         } else if (n >= 'A' && n <= 'Z') {
             counter2++;
-        }
-        if(n == '.'){ //условия выхода из вечного цикла
-            break;
         }
     }
 
