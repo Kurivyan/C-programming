@@ -15,3 +15,15 @@ int main(void) {
 
     return 0;
 }
+
+/*
+recurs(6)
+    recurs(5) [recurs(4) * 5 * recurs(3) * 4 * recurs(2) * 3] * 6
+        recurs(4) [recurs(3) * 4 * recurs(2) * 3] * 5
+            recurs(3) [recurs(2) * 3] * 4 
+                recurs(2) [recurs(1) * 2] * 3
+                    recurs(1) * 2
+                        1
+
+1 * 2 * 3 * 4 * 5 * 6
+*/
