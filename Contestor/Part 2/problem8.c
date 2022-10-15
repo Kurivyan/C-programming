@@ -14,9 +14,9 @@ Output:
 int main(){
     int n;
     int result = 1;
-    scanf("%i", &n);
+    scanf("%d", &n);
 
-    for(int i = 1; i <= n; i++, result *= i);
-    printf("%d", &result);
+    for(int i = 1; i <= n; result *= i, i++);
+    printf("%d", result);
     return 0;
 }
