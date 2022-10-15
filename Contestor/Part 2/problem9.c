@@ -16,12 +16,13 @@ Output:
 
 #include<stdio.h>
 int main(){
-    int a, n;
-    int result = 0;
-    scanf("%i %i", &a, &n);
+    float a;
+    int n;
+    float result = 0;
+    scanf("%f %i", &a, &n);
 
     for(int i = 0; i < n; result += a, i++);
-    printf("%d", result);
+    printf("%f", result);
     
     return 0;
 }
