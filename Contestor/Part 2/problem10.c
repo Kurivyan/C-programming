@@ -19,12 +19,10 @@ Output:
 int main(){
     float a;
     int n;
-    int result = a;
     scanf("%f %i", &a, &n);
+    float result = a;
 
-    for (int i = 1; i < n; i++){
-        result = result * (a + i);
-    }
+    for (int i = 1; i < n; result *= (a + i), i++);
     printf("%f", result);
     return 0;
 }
