@@ -12,10 +12,10 @@ Output:
 #include<stdio.h>
 
 int main(){
-    int x, y, z;
+    int x, y, z; //создаем три переменные
 
-    scanf("%i %i %i", &x, &y, &z);
+    scanf("%i %i %i", &x, &y, &z); //вводим значения переменных
 
-    printf("%i", (x * x) + y - (z / 2));
+    printf("%i", (x * x)/* запись x² */ + y - (z / 2)); // выводим результат математического выражения
     return 0;
 }

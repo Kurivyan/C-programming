@@ -12,11 +12,11 @@ Output:
 #include<stdio.h>
 
 int main() {
-    int number;
+    int number; //создаем переменную
 
-    scanf("%i", &number);
+    scanf("%i", &number); //записываем переменную
 
-    printf("%i", number);
+    printf("%i", number);//выводим переменную
     
     return 0;
 }
