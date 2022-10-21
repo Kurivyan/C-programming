@@ -23,7 +23,7 @@ int main(){
     float x, y, z;
     scanf("%f %f %f", &x, &y, &z);
 
-    if(x <= y <= z) {
+    if(x <= y && y <= z) {
         x *= 2; y *= 2; z *= 2; 
     } else {
         if(x < 0)
