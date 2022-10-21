@@ -15,7 +15,7 @@ int main(){
     float x, y, z;
     scanf("%f %f %f", &x, &y, &z);
 
-    if(x < y < z) {
+    if(x < y && y < z) {
         printf("Yes");
     } else {
         printf("No");
