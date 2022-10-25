@@ -8,15 +8,17 @@
 
 int main(){
     int n;
+    scanf("%d", &n);
+    int number;
     int sum = 0;
     int prod = 1;
     for(int i = 0; i < n; i++){
-        scanf("%d", &n);
-        if(n % 2 == 0) {
-            sum += n;
+        scanf("%d", &number);
+        if(number % 2 == 0) {
+            sum += number;
         }
-        if(n % 2 != 0) {
-            prod *= n;
+        if(number % 2 != 0) {
+            prod *= number;
         }
             
     }
