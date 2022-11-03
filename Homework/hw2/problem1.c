@@ -13,7 +13,7 @@ int main(){
     int k, m, n;
     scanf("%d %d %d", &m, &n, &k);
     
-    if (m < (k + 1) + n) {
+    if (m - 1 < k + n - 1) {
         printf("Unable to do !"); return 0;
     } else {
         char str1[m];
